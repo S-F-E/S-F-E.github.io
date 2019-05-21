@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Drawing app</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" href="css/styling.css">
+        
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css"> 
+    
+</head>
+
+<body>
+<!--   TITLE -->
+    <div id="header">Drawing App</div>
+    
+<!--PAINT COLOR-->
+    <div class="inputContainer">
+        <!--color-->
+        <div class="input" id="colorInput">
+            <input type="color" list="" id="paintColor">
+        </div>
+        
+    <!--SIZE-->
+    <div class="input" id="thicknessInput">
+    <div id="circle"></div>   
+    </div>
+        
+        
+    <!--size selector-->
+        <div class="input" >
+            <div id="slider"></div>
+    </div>    
+    </div>   
+    
+<!-- CANVAS CONTAINER   -->
+    <div id="container">
+    <canvas id="paint" width="500px" height="400px"></canvas>
+    </div>
+
+    <div class="inputContainer2">
+        <div class="input2">
+            <span id="erase" class="button">Erase</span>
+        </div>
+        <div class="input2">
+            <span id="save" class="button">Save</span>
+        </div>
+        <div class="input2">
+            <span id="reset" class="button">Reset</span>
+        </div>
+    </div>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+<!--********************JAVASCRIPT*******************-->
+<script src="js/jquery-3.4.1.min.js"></script>   
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>      
+<script src= "js/javascript.js"></script>
+    
+
+    
+</body>
+
+
+
+</html>
